@@ -1,0 +1,40 @@
+body {
+	background-color: #ddd;
+}
+
+#chart {
+	width:800px;
+	height:500px;
+	border:1px solid #aaa;
+	border-radius: 5px;
+	margin:20px 20px;
+	background-color: #fff;
+	padding:4px 10px;
+}
+
+
+#chart text {
+	font-family:helvetica,arial,verdana;
+}
+
+
+#controls {
+	width:800px;
+	height:12px;
+	margin-left:20px;
+	font-family:helvetica,arial,verdana;
+	font-size:12pt;
+}
+
+#controls .units {
+	float:right;
+}
+
+#controls .depth {
+	float:left;
+}
+
+#controls .values {
+	float:left;
+	margin-left:40px;
+}
